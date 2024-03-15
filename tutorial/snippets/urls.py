@@ -22,7 +22,7 @@ urlpatterns = format_suffix_patterns([
          name='user-detail')
 ])
 
-urlpatterns = format_suffix_patterns(urlpatterns)
+# urlpatterns = format_suffix_patterns(urlpatterns)
 
 urlpatterns += [
     path('api-auth', include('rest_framework.urls'))
